@@ -1,267 +1,267 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://yuhuicf.github.io/hugo/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://yuhuicf.github.io/hugo/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/20180307-webpack-upgrade/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/20180307-webpack-upgrade/</loc>
     <lastmod>2018-03-16T21:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/jane-theme-preview/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/jane-theme-preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/shortcodes-preview/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/shortcodes-preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/english-preview/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/english-preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/this-is-a-very-long-title/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/this-is-a-very-long-title/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/creating-a-new-theme/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/goisforlovers/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hugoisforlovers/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/migrate-from-jekyll/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/syntax-highlighting/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/development/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/development/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/english/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/english/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/go/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/go/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/golang/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/golang/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/index/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/index/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://yuhuicf.github.io/hugo/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/jekyll/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/js/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/js/</loc>
     <lastmod>2018-03-16T21:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/</loc>
     <lastmod>2018-03-16T21:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/preview/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/shortcodes/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/syntax-highlighting/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/syntax-highlighting/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-2/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/tag-2/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-5/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/tag-5/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-6/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/tag-6/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/templates/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/templates/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/test/</loc>
+    <loc>https://yuhuicf.github.io/hugo/categories/test/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/themes/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/webpack/</loc>
+    <loc>https://yuhuicf.github.io/hugo/tags/webpack/</loc>
     <lastmod>2018-03-16T21:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
