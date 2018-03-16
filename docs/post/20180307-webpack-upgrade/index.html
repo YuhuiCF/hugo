@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Webpack Upgrade - Jane - A super concise theme for Hugo</title>
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Yuhui Xiong" />
+  <meta name="description" content="Upgrade of webpack to 4.x.x A new major version of webpack has been released, 4.x.x.
+Here are the listed changes from an existing repository having webpack@2.2.1 and needed to be upgraded to webpack@4.1.0.
+
+" />
+
+  <meta name="keywords" content="Hugo, theme, jane" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/20180307-webpack-upgrade/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Webpack Upgrade" />
+<meta property="og:description" content="Upgrade of webpack to 4.x.x
+
+A new major version of webpack has been released, 4.x.x.
+
+Here are the listed changes from an existing repository having webpack@2.2.1 and needed to be upgraded to webpack@4.1.0.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/20180307-webpack-upgrade/" />
+
+
+
+<meta property="article:published_time" content="2018-03-07T16:00:00&#43;01:00"/>
+
+<meta property="article:modified_time" content="2018-03-16T21:00:00&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Webpack Upgrade">
+<meta itemprop="description" content="Upgrade of webpack to 4.x.x
+
+A new major version of webpack has been released, 4.x.x.
+
+Here are the listed changes from an existing repository having webpack@2.2.1 and needed to be upgraded to webpack@4.1.0.
+
+">
+
+
+<meta itemprop="datePublished" content="2018-03-07T16:00:00&#43;01:00" />
+<meta itemprop="dateModified" content="2018-03-07T16:00:00&#43;01:00" />
+<meta itemprop="wordCount" content="145">
+
+
+
+<meta itemprop="keywords" content="webpack," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Webpack Upgrade"/>
+<meta name="twitter:description" content="Upgrade of webpack to 4.x.x
+
+A new major version of webpack has been released, 4.x.x.
+
+Here are the listed changes from an existing repository having webpack@2.2.1 and needed to be upgraded to webpack@4.1.0.
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Jane</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">Jane</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Webpack Upgrade</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-03-07 </span>
+        <div class="post-category">
+            
+              <a href="/categories/js/"> JS </a>
+            
+          </div>
+        <span class="more-meta"> 145 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#upgrade-of-webpack-to-4-x-x">Upgrade of webpack to 4.x.x</a>
+<ul>
+<li><a href="#updated-npm-modules">Updated npm modules</a></li>
+<li><a href="#updated-webpack-configs">Updated webpack configs</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h2 id="upgrade-of-webpack-to-4-x-x">Upgrade of webpack to 4.x.x</h2>
+
+<p>A new major version of webpack has been released, 4.x.x.</p>
+
+<p>Here are the listed changes from an existing repository having webpack@2.2.1 and needed to be upgraded to webpack@4.1.0.</p>
+
+<p></p>
+
+<h3 id="updated-npm-modules">Updated npm modules</h3>
+
+<pre><code class="language-javascript">{
+  &quot;webpack&quot;: {
+    &quot;from&quot;: &quot;2.2.1&quot;,
+    &quot;to&quot;:   &quot;4.1.0&quot;,
+  },
+  &quot;webpack-dev-server&quot;: {
+    &quot;from&quot;: &quot;2.4.2&quot;,
+    &quot;to&quot;:   &quot;3.1.0&quot;,
+  },
+  &quot;karma-webpack&quot;: {
+    &quot;from&quot;: &quot;2.0.3&quot;,
+    &quot;to&quot;:   &quot;2.0.13&quot;,
+  },
+  &quot;babel-loader&quot;: {
+    &quot;from&quot;: &quot;7.0.0&quot;,
+    &quot;to&quot;:   &quot;7.1.4&quot;,
+  },
+  &quot;uglifyjs-webpack-plugin@1.2.2&quot;: {
+    &quot;new&quot;: &quot;replace config.plugins.push(new webpack.optimize.UglifyJsPlugin({...}))&quot;
+  },
+  &quot;webpack-cli@2.0.10&quot;: {
+    &quot;new&quot;: &quot;The CLI moved into a separate package: webpack-cli. Please install 'webpack-cli' in addition to webpack itself to use the CLI.&quot;
+  }
+}
+</code></pre>
+
+<h3 id="updated-webpack-configs">Updated webpack configs</h3>
+
+<pre><code class="language-javascript">// mode is needed
+config.mode = isTest || isDev ? 'development' : 'production';
+
+// config.plugins.push(new webpack.optimize.UglifyJsPlugin({...})) is to be replaced by:
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+config.optimization = {
+  minimizer: [
+    new UglifyJSPlugin({
+      uglifyOptions: {
+        mangle: false,
+      },
+      // exclude: [/\.min\.js$/gi],
+      sourceMap: true,
+    }),
+  ],
+};
+</code></pre>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Yuhui Xiong</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-03-16</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/webpack/">webpack</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/jane-theme-preview/">
+            <span class="next-text nav-default">Jane Theme Preview</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
+
+  
+
+  
+
+  
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Yuhui Xiong</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+</body>
+</html>
