@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Jane - A super concise theme for Hugo</title>
+    <title>Categories on My Blog built on Hugo with Jane theme</title>
     <link>https://yuhuicf.github.io/hugo/categories/</link>
-    <description>Recent content in Categories on Jane - A super concise theme for Hugo</description>
+    <description>Recent content in Categories on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -79,6 +79,15 @@
       <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
       
       <guid>https://yuhuicf.github.io/hugo/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>https://yuhuicf.github.io/hugo/categories/unix/</link>
+      <pubDate>Sun, 18 Mar 2018 20:56:00 +0100</pubDate>
+      
+      <guid>https://yuhuicf.github.io/hugo/categories/unix/</guid>
       <description></description>
     </item>
     

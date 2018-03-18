@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cli on My Blog built on Hugo with Jane theme</title>
+    <link>https://yuhuicf.github.io/hugo/tags/cli/</link>
+    <description>Recent content in Cli on My Blog built on Hugo with Jane theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Mar 2018 20:56:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://yuhuicf.github.io/hugo/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learn Enough Command Line to Be Dangerous</title>
+      <link>https://yuhuicf.github.io/hugo/post/20180317-learn-enough-cli-to-be-dangerous/</link>
+      <pubDate>Sun, 18 Mar 2018 20:56:00 +0100</pubDate>
+      
+      <guid>https://yuhuicf.github.io/hugo/post/20180317-learn-enough-cli-to-be-dangerous/</guid>
+      <description>&lt;h2 id=&#34;ebook&#34;&gt;Ebook&lt;/h2&gt;
+
+&lt;p&gt;Just finished reading &lt;a href=&#34;https://www.learnenough.com/command-line-tutorial&#34;&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This gives some basic introduction to the unix cli usages.
+Some of the most frequently used (and might also be the most helpful ones) are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;man&lt;/li&gt;
+&lt;li&gt;ls&lt;/li&gt;
+&lt;li&gt;echo (use &amp;ldquo;&amp;gt;&amp;rdquo; to write into files, use &amp;ldquo;&amp;gt;&amp;gt;&amp;rdquo; to append content)&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;li&gt;mv&lt;/li&gt;
+&lt;li&gt;cp&lt;/li&gt;
+&lt;li&gt;grep (pipe operator &amp;ldquo;|&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;less (vs. more)&lt;/li&gt;
+&lt;li&gt;head and tail&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

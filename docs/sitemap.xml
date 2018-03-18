@@ -6,81 +6,95 @@
     <loc>https://yuhuicf.github.io/hugo/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuhuicf.github.io/hugo/post/20180317-learn-enough-cli-to-be-dangerous/</loc>
+    <lastmod>2018-03-18T21:04:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/20180307-webpack-upgrade/</loc>
     <lastmod>2018-03-16T21:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/jane-theme-preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/shortcodes-preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/english-preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/this-is-a-very-long-title/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuhuicf.github.io/hugo/tags/cli/</loc>
+    <lastmod>2018-03-18T21:04:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -149,13 +163,6 @@
   </url>
   
   <url>
-    <loc>https://yuhuicf.github.io/hugo/</loc>
-    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yuhuicf.github.io/hugo/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -170,8 +177,15 @@
   </url>
   
   <url>
+    <loc>https://yuhuicf.github.io/hugo/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yuhuicf.github.io/hugo/post/</loc>
-    <lastmod>2018-03-16T21:00:00+01:00</lastmod>
+    <lastmod>2018-03-18T21:04:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -234,7 +248,7 @@
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/tags/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-18T21:04:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -256,6 +270,13 @@
   <url>
     <loc>https://yuhuicf.github.io/hugo/tags/themes/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuhuicf.github.io/hugo/categories/unix/</loc>
+    <lastmod>2018-03-18T21:04:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
