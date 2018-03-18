@@ -1,7 +1,7 @@
 ---
 title: "Learn Enough Command Line to Be Dangerous"
 date: 2018-03-18T20:56:00+01:00
-lastmod: 2018-03-18T21:04:00+01:00
+lastmod: 2018-03-18T21:54:00+01:00
 draft: false
 tags: ["cli"]
 categories: ["unix"]
@@ -30,3 +30,5 @@ Some of the most frequently used (and might also be the most helpful ones) are:
 
 I remember reading somewhere that says the `man` command is a quite useful way to learn the commands in detail.
 Sometimes even an example could be found in the manual descriptions.
+
+This book would serve as a quite good introduction of the terminal to beginners or even for people not using it so often.
