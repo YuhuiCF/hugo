@@ -1,5 +1,5 @@
 baseURL = "https://yuhuicf.github.io/hugo/"
-title = "Jane - A super concise theme for Hugo"
+title = "My Blog built on Hugo with Jane theme"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -22,7 +22,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
-  priority = 0.5
+  priority = 0.8
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
@@ -55,8 +55,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","jane"]
-  description = "Hugo theme jane example site."
+  keywords = ["Hugo", "theme", "jane"]
+  description = "Yuhui's blog"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archive-paginate = 3
@@ -115,15 +115,15 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
+    b-stack-overflow = "javascript:void(0);"
+    c-twitter = "javascript:void(0);"
+    d-facebook = "javascript:void(0);"
+    e-linkedin = "javascript:void(0);"
+    f-google = "javascript:void(0);"
+    g-github = "javascript:void(0);"
+    h-weibo = "javascript:void(0);"
+    i-zhihu = "javascript:void(0);"
+    j-douban = "javascript:void(0);"
+    k-pocket = "javascript:void(0);"
+    l-tumblr = "javascript:void(0);"
+    m-instagram = "javascript:void(0);"

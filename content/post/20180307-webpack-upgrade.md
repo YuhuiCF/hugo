@@ -4,7 +4,7 @@ date: 2018-03-07T16:00:00+01:00
 lastmod: 2018-03-16T21:00:00+01:00
 draft: false
 tags: ["webpack"]
-categories: ["JS"]
+categories: ["js"]
 ---
 
 
