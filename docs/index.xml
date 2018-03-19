@@ -36,10 +36,10 @@
     
     <item>
       <title>Learn Enough Command Line to Be Dangerous</title>
-      <link>https://yuhuicf.github.io/hugo/post/20180317-learn-enough-cli-to-be-dangerous/</link>
+      <link>https://yuhuicf.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</link>
       <pubDate>Sun, 18 Mar 2018 20:56:00 +0100</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/20180317-learn-enough-cli-to-be-dangerous/</guid>
+      <guid>https://yuhuicf.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</guid>
       
         <description>&lt;h2 id=&#34;ebook&#34;&gt;Ebook&lt;/h2&gt;
 
@@ -62,6 +62,16 @@ Some of the most frequently used (and might also be the most helpful ones) are:&
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Some other useful &amp;ldquo;shortcuts&amp;rdquo;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;^A&lt;/code&gt;, move the mouse to the beginning of the line&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^E&lt;/code&gt;, move the mouse to the end of the line&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^U&lt;/code&gt;, clear from the current mouse position to the beginning of the line&lt;/li&gt;
+&lt;li&gt;Option-click, move cursor to location clicked&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;I remember reading somewhere that says the &lt;code&gt;man&lt;/code&gt; command is a quite useful way to learn the commands in detail.
 Sometimes even an example could be found in the manual descriptions.&lt;/p&gt;

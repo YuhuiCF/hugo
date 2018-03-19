@@ -28,6 +28,14 @@ Some of the most frequently used (and might also be the most helpful ones) are:
 
 <!--more-->
 
+Some other useful "shortcuts":
+
+* `^A`, move the mouse to the beginning of the line
+* `^E`, move the mouse to the end of the line
+* `^U`, clear from the current mouse position to the beginning of the line
+* Option-click, move cursor to location clicked
+* ...
+
 I remember reading somewhere that says the `man` command is a quite useful way to learn the commands in detail.
 Sometimes even an example could be found in the manual descriptions.
 
