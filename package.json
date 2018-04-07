@@ -1,0 +1,22 @@
+{
+  "name": "hugo",
+  "version": "1.0.0",
+  "description": "My hugo repository to host my blogs.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuhuiCF/hugo.git"
+  },
+  "author": "Yuhui Xiong",
+  "license": "CC BY-NC-ND 4.0",
+  "bugs": {
+    "url": "https://github.com/YuhuiCF/hugo/issues"
+  },
+  "homepage": "https://github.com/YuhuiCF/hugo#readme",
+  "devDependencies": {
+    "version-patch": "git+https://github.com/YuhuiCF/version-patch.git#3.4.4"
+  }
+}
