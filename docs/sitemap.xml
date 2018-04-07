@@ -10,7 +10,14 @@
   </url>
   
   <url>
-    <loc>https://yuhuicf.github.io/hugo/post/20180317-learn-enough-cli-to-be-dangerous/</loc>
+    <loc>https://yuhuicf.github.io/hugo/post/20180407-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%90%8D%E6%9C%89%E8%83%BD%E5%8A%9B%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB/</loc>
+    <lastmod>2018-04-07T13:38:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuhuicf.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</loc>
     <lastmod>2018-03-18T21:54:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -87,7 +94,15 @@
   </url>
   
   <url>
+    <loc>https://yuhuicf.github.io/hugo/categories/career/</loc>
+    <lastmod>2018-04-07T13:38:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yuhuicf.github.io/hugo/categories/</loc>
+    <lastmod>2018-04-07T13:38:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -185,7 +200,7 @@
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/</loc>
-    <lastmod>2018-03-18T21:54:00+01:00</lastmod>
+    <lastmod>2018-04-07T13:38:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
