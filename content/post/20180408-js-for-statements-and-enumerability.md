@@ -1,7 +1,7 @@
 ---
 title: "JS for statements and enumerability"
 date: 2018-04-08T12:34:00+02:00
-lastmod: 2018-04-08T12:40:00+02:00
+lastmod: 2018-04-08T13:01:00+02:00
 draft: false
 tags: []
 categories: ["js"]

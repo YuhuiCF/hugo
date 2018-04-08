@@ -6,10 +6,31 @@
     <description>Recent content in Js on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Mar 2018 16:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Apr 2018 12:34:00 +0200</lastBuildDate>
     
 	<atom:link href="https://yuhuicf.github.io/hugo/categories/js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS for statements and enumerability</title>
+      <link>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</link>
+      <pubDate>Sun, 08 Apr 2018 12:34:00 +0200</pubDate>
+      
+      <guid>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;forEach()&lt;/code&gt; is a method for Arrays, &lt;code&gt;[1, 2].forEach((i) =&amp;gt; {console.log(i);})&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;for in&lt;/code&gt; loops over enumerable property names of an object, &lt;code&gt;for (let i in {a: &#39;1&#39;, b: &#39;2&#39;}) {console.log(i);}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;for of&lt;/code&gt; is new in ES6, and loops over an iterable object (&lt;code&gt;[Symbol.iterator]&lt;/code&gt;), returning a list of the values (different version of &lt;code&gt;forEach&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;enumerability&#34;&gt;Enumerability&lt;/h2&gt;
+
+&lt;p&gt;Enumerable properties are those which can be iterated by a for..in loop.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Webpack Upgrade</title>

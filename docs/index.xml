@@ -35,6 +35,40 @@
     </item>
     
     <item>
+      <title>JS for statements and enumerability</title>
+      <link>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</link>
+      <pubDate>Sun, 08 Apr 2018 12:34:00 +0200</pubDate>
+      
+      <guid>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</guid>
+      
+        <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;forEach()&lt;/code&gt; is a method for Arrays, &lt;code&gt;[1, 2].forEach((i) =&amp;gt; {console.log(i);})&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;for in&lt;/code&gt; loops over enumerable property names of an object, &lt;code&gt;for (let i in {a: &#39;1&#39;, b: &#39;2&#39;}) {console.log(i);}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;for of&lt;/code&gt; is new in ES6, and loops over an iterable object (&lt;code&gt;[Symbol.iterator]&lt;/code&gt;), returning a list of the values (different version of &lt;code&gt;forEach&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;enumerability&#34;&gt;Enumerability&lt;/h2&gt;
+
+&lt;p&gt;Enumerable properties are those which can be iterated by a for..in loop.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;How to make a property non-enumerable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const a = {};
+Object.defineProperty(a, &#39;myMethod&#39;, {// or add to `Object.prototype` instead of `a`
+  newValue: function () {
+    alert(&#39;j&#39;);
+  },
+  enumerable: false,
+});
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>如何做一名有能力的专业人士</title>
       <link>https://yuhuicf.github.io/hugo/post/20180407-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%90%8D%E6%9C%89%E8%83%BD%E5%8A%9B%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB/</link>
       <pubDate>Sat, 07 Apr 2018 13:38:00 +0200</pubDate>
