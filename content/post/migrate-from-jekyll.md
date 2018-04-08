@@ -10,10 +10,9 @@ tags: [
     "jekyll",
 ]
 categories: [
-    "Development",
-    "golang",
-    "index",
+    "jane",
 ]
+author: 'jane'
 ---
 
 ## Move static content to `static`

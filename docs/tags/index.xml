@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>English</title>
-      <link>https://yuhuicf.github.io/hugo/tags/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Go</title>
       <link>https://yuhuicf.github.io/hugo/tags/go/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
@@ -98,33 +89,6 @@
       <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
       
       <guid>https://yuhuicf.github.io/hugo/tags/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag 2</title>
-      <link>https://yuhuicf.github.io/hugo/tags/tag-2/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/tags/tag-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag 5</title>
-      <link>https://yuhuicf.github.io/hugo/tags/tag-5/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/tags/tag-5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag 6</title>
-      <link>https://yuhuicf.github.io/hugo/tags/tag-6/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/tags/tag-6/</guid>
       <description></description>
     </item>
     

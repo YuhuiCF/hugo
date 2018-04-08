@@ -10,9 +10,7 @@ tags: [
     "development",
 ]
 categories: [
-    "Development",
-    "golang",
-    "index",
+    "jane",
 ]
 ---
 

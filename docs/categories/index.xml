@@ -21,38 +21,11 @@
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://yuhuicf.github.io/hugo/categories/development/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://yuhuicf.github.io/hugo/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://yuhuicf.github.io/hugo/categories/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Index</title>
-      <link>https://yuhuicf.github.io/hugo/categories/index/</link>
+      <title>Jane</title>
+      <link>https://yuhuicf.github.io/hugo/categories/jane/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/categories/index/</guid>
+      <guid>https://yuhuicf.github.io/hugo/categories/jane/</guid>
       <description></description>
     </item>
     
@@ -62,33 +35,6 @@
       <pubDate>Wed, 07 Mar 2018 16:00:00 +0100</pubDate>
       
       <guid>https://yuhuicf.github.io/hugo/categories/js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://yuhuicf.github.io/hugo/categories/shortcodes/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://yuhuicf.github.io/hugo/categories/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/categories/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://yuhuicf.github.io/hugo/categories/test/</link>
-      <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://yuhuicf.github.io/hugo/categories/test/</guid>
       <description></description>
     </item>
     

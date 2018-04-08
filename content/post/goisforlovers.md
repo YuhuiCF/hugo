@@ -10,10 +10,9 @@ tags = [
 ]
 date = "2014-04-02"
 categories = [
-    "Development",
-    "golang",
-    "index",
+    "jane",
 ]
+author = 'jane'
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
