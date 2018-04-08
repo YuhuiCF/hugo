@@ -5,7 +5,11 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "serve": "hugo server",
+    "dist": "rm -rf ./docs && hugo",
+    "docs": "npm run dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YuhuiCF/hugo.git"
