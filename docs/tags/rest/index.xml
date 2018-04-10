@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rest on My Blog built on Hugo with Jane theme</title>
+    <link>https://yuhuicf.github.io/hugo/tags/rest/</link>
+    <description>Recent content in Rest on My Blog built on Hugo with Jane theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Apr 2018 07:56:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://yuhuicf.github.io/hugo/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RESTful API</title>
+      <link>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</link>
+      <pubDate>Tue, 10 Apr 2018 07:56:00 +0200</pubDate>
+      
+      <guid>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</guid>
+      <description>&lt;h2 id=&#34;guiding-principles-of-rest&#34;&gt;Guiding Principles of REST&lt;/h2&gt;
+
+&lt;p&gt;REST is caracterized by: resource-based, noun, URI, representations.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uniform Interface&lt;/li&gt;
+&lt;li&gt;Stateless&lt;/li&gt;
+&lt;li&gt;Cacheable&lt;/li&gt;
+&lt;li&gt;Client-Server&lt;/li&gt;
+&lt;li&gt;Layered System&lt;/li&gt;
+&lt;li&gt;Code on Demand (optional)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>My Blog built on Hugo with Jane theme</title>
+  <title>RESTful API - My Blog built on Hugo with Jane theme</title>
   <link rel="alternate" hreflang="en" href="https://yuhuicf.github.io/hugo/" />
 
 <meta name="renderer" content="webkit" />
@@ -19,7 +19,10 @@
 
 
 <meta name="author" content="Yuhui Xiong" />
-  <meta name="description" content="Yuhui&#39;s blog" />
+  <meta name="description" content="Guiding Principles of REST REST is caracterized by: resource-based, noun, URI, representations.
+ Uniform Interface Stateless Cacheable Client-Server Layered System Code on Demand (optional)  
+" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -30,9 +33,7 @@
 <meta name="generator" content="Hugo 0.37.1" />
 
 
-<link rel="canonical" href="https://yuhuicf.github.io/hugo/" />
-<link href="https://yuhuicf.github.io/hugo/index.xml" rel="alternate" type="application/rss+xml" title="My Blog built on Hugo with Jane theme" />
-  <link href="https://yuhuicf.github.io/hugo/index.xml" rel="feed" type="application/rss+xml" title="My Blog built on Hugo with Jane theme" />
+<link rel="canonical" href="https://yuhuicf.github.io/hugo/post/20180410-restful-api/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/hugo/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/hugo/favicon-32x32.png">
@@ -50,14 +51,29 @@
 
 
 
-<meta property="og:title" content="My Blog built on Hugo with Jane theme" />
-<meta property="og:description" content="Yuhui&#39;s blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://yuhuicf.github.io/hugo/" />
+<meta property="og:title" content="RESTful API" />
+<meta property="og:description" content="Guiding Principles of REST
+
+REST is caracterized by: resource-based, noun, URI, representations.
+
+
+Uniform Interface
+Stateless
+Cacheable
+Client-Server
+Layered System
+Code on Demand (optional)
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yuhuicf.github.io/hugo/post/20180410-restful-api/" />
 
 
 
-<meta property="og:updated_time" content="2018-03-18T20:56:00&#43;01:00"/>
+<meta property="article:published_time" content="2018-04-10T07:56:00&#43;02:00"/>
+
+<meta property="article:modified_time" content="2018-04-10T08:10:00&#43;02:00"/>
 
 
 
@@ -68,12 +84,47 @@
 
 
 
-<meta itemprop="name" content="My Blog built on Hugo with Jane theme">
-<meta itemprop="description" content="Yuhui&#39;s blog">
 
+<meta itemprop="name" content="RESTful API">
+<meta itemprop="description" content="Guiding Principles of REST
+
+REST is caracterized by: resource-based, noun, URI, representations.
+
+
+Uniform Interface
+Stateless
+Cacheable
+Client-Server
+Layered System
+Code on Demand (optional)
+
+
+">
+
+
+<meta itemprop="datePublished" content="2018-04-10T07:56:00&#43;02:00" />
+<meta itemprop="dateModified" content="2018-04-10T07:56:00&#43;02:00" />
+<meta itemprop="wordCount" content="171">
+
+
+
+<meta itemprop="keywords" content="rest," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Blog built on Hugo with Jane theme"/>
-<meta name="twitter:description" content="Yuhui&#39;s blog"/>
+<meta name="twitter:title" content="RESTful API"/>
+<meta name="twitter:description" content="Guiding Principles of REST
+
+REST is caracterized by: resource-based, noun, URI, representations.
+
+
+Uniform Interface
+Stateless
+Cacheable
+Client-Server
+Layered System
+Code on Demand (optional)
+
+
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -141,177 +192,145 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-  <section id="posts" class="posts">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">RESTful API</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-04-10 </span>
+        <div class="post-category">
+            
+              <a href="/hugo/categories/web/"> web </a>
+            
+          </div>
+        <span class="more-meta"> 171 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
     
     
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/hugo/post/20180318-learn-enough-cli-to-be-dangerous/">Learn Enough Command Line to Be Dangerous</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-03-18 </span>
-      <div class="post-category">
-          
-            <a href="/hugo/categories/unix/"> unix </a>
-          
-        </div>
-      <span class="more-meta"> 162 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
   
-  <div class="post-content">
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#guiding-principles-of-rest">Guiding Principles of REST</a>
+<ul>
+<li><a href="#uniform-interface">Uniform Interface</a></li>
+<li><a href="#stateless">Stateless</a></li>
+<li><a href="#cacheable">Cacheable</a></li>
+<li><a href="#client-server">Client-Server</a></li>
+<li><a href="#layered-system">Layered System</a></li>
+<li><a href="#code-on-demand-optional">Code on Demand (optional)</a></li>
+</ul></li>
+<li><a href="#resources">Resources</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
     
-    <div class="post-summary">
-      <h2 id="ebook">Ebook</h2>
+    <div class="post-content">
+      <h2 id="guiding-principles-of-rest">Guiding Principles of REST</h2>
 
-<p>Just finished reading <a href="https://www.learnenough.com/command-line-tutorial">Learn Enough Command Line to Be Dangerous</a>.</p>
-
-<p>This gives some basic introduction to the unix cli usages.
-Some of the most frequently used (and might also be the most helpful ones) are:</p>
+<p>REST is caracterized by: resource-based, noun, URI, representations.</p>
 
 <ul>
-<li>man</li>
-<li>ls</li>
-<li>echo (use &ldquo;&gt;&rdquo; to write into files, use &ldquo;&gt;&gt;&rdquo; to append content)</li>
-<li>cat</li>
-<li>mv</li>
-<li>cp</li>
-<li>grep (pipe operator &ldquo;|&rdquo;)</li>
-<li>less (vs. more)</li>
-<li>head and tail</li>
-<li>&hellip;</li>
+<li>Uniform Interface</li>
+<li>Stateless</li>
+<li>Cacheable</li>
+<li>Client-Server</li>
+<li>Layered System</li>
+<li>Code on Demand (optional)</li>
 </ul>
 
 <p></p>
+
+<h3 id="uniform-interface">Uniform Interface</h3>
+
+<p>Use HTTP verbs, URIs, and correct HTTP response (status, and body), hypermedia as the engine of application state.</p>
+
+<h3 id="stateless">Stateless</h3>
+
+<p>Each request contains enough context to process the message. (Session state is therefore kept entirely on the client.)</p>
+
+<h3 id="cacheable">Cacheable</h3>
+
+<p>Server responses (representations) are cacheable (or non-cacheable?). If a response is cacheable, then a client cache is given the right to reuse that response data for later, equivalent requests.</p>
+
+<h3 id="client-server">Client-Server</h3>
+
+<p>Separate the user interface from the data storage, improve the portability of the user interface, and improve scalability.</p>
+
+<h3 id="layered-system">Layered System</h3>
+
+<p>The layered system style allows an architecture to be composed of hierarchical layers by constraining component behavior such that each component cannot “see” beyond the immediate layer with which they are interacting.</p>
+
+<h3 id="code-on-demand-optional">Code on Demand (optional)</h3>
+
+<p>Transfer logic to client. Client executes logic.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li><a href="https://restfulapi.net/">What is REST, by REST API Tutorial</a></li>
+<li><a href="https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming#answer-671132">What exactly is RESTful programming?, by stackoverflow</a></li>
+</ul>
     </div>
-    <div class="read-more">
-      <a href="/hugo/post/20180318-learn-enough-cli-to-be-dangerous/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
 
     
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/hugo/post/20180307-webpack-upgrade/">Webpack Upgrade</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-03-07 </span>
-      <div class="post-category">
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Yuhui Xiong</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-04-10</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
           
-            <a href="/hugo/categories/js/"> js </a>
+          <a href="/hugo/tags/rest/">rest</a>
           
         </div>
-      <span class="more-meta"> 145 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/hugo/post/20180408-js-for-statements-and-enumerability/">
+            <span class="next-text nav-default">JS for statements and enumerability</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
     
-    <div class="post-summary">
-      <h2 id="upgrade-of-webpack-to-4-x-x">Upgrade of webpack to 4.x.x</h2>
-
-<p>A new major version of webpack has been released, 4.x.x.</p>
-
-<p>Here are the listed changes from an existing repository having webpack@2.2.1 and needed to be upgraded to webpack@4.1.0.</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/hugo/post/20180307-webpack-upgrade/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/hugo/post/jane-theme-preview/">Jane Theme Preview</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-03-06 </span>
-      <div class="post-category">
-          
-            <a href="/hugo/categories/jane/"> jane </a>
-          
-        </div>
-      <span class="more-meta"> 1380 words </span>
-      <span class="more-meta"> 7 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <p><strong>Markdown</strong> is created by <a href="http://daringfireball.net/">Daring Fireball</a>, the original guideline is <a href="http://daringfireball.net/projects/markdown/syntax">here</a>. Its syntax, however, varies between different parsers or editors.</p>
-
-<p>Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/hugo/post/jane-theme-preview/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-  </section>
 
   
-  
 
-
-
-  
-  
   
 
   
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    
-    <li >
-      <a href="/hugo/">1</a>
-    </li>
-    
-    <li  class="active" >
-      <a href="/hugo/page/2/">2</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/3/">3</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/4/">4</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/5/">5</a>
-    </li>
-    
-  </nav>
-
-  
-  
-
-
-
-
+  </article>
         </div>
       </div>
     </main>

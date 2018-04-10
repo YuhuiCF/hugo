@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</loc>
+    <lastmod>2018-04-10T08:10:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</loc>
     <lastmod>2018-04-08T13:01:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -179,7 +186,7 @@
   
   <url>
     <loc>https://yuhuicf.github.io/hugo/post/</loc>
-    <lastmod>2018-04-08T13:01:00+02:00</lastmod>
+    <lastmod>2018-04-10T08:10:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -187,6 +194,13 @@
   <url>
     <loc>https://yuhuicf.github.io/hugo/tags/preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuhuicf.github.io/hugo/tags/rest/</loc>
+    <lastmod>2018-04-10T08:10:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -229,6 +243,13 @@
   <url>
     <loc>https://yuhuicf.github.io/hugo/categories/unix/</loc>
     <lastmod>2018-03-18T21:54:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuhuicf.github.io/hugo/categories/web/</loc>
+    <lastmod>2018-04-10T08:10:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

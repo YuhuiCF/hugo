@@ -35,6 +35,61 @@
     </item>
     
     <item>
+      <title>RESTful API</title>
+      <link>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</link>
+      <pubDate>Tue, 10 Apr 2018 07:56:00 +0200</pubDate>
+      
+      <guid>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</guid>
+      
+        <description>&lt;h2 id=&#34;guiding-principles-of-rest&#34;&gt;Guiding Principles of REST&lt;/h2&gt;
+
+&lt;p&gt;REST is caracterized by: resource-based, noun, URI, representations.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uniform Interface&lt;/li&gt;
+&lt;li&gt;Stateless&lt;/li&gt;
+&lt;li&gt;Cacheable&lt;/li&gt;
+&lt;li&gt;Client-Server&lt;/li&gt;
+&lt;li&gt;Layered System&lt;/li&gt;
+&lt;li&gt;Code on Demand (optional)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;uniform-interface&#34;&gt;Uniform Interface&lt;/h3&gt;
+
+&lt;p&gt;Use HTTP verbs, URIs, and correct HTTP response (status, and body), hypermedia as the engine of application state.&lt;/p&gt;
+
+&lt;h3 id=&#34;stateless&#34;&gt;Stateless&lt;/h3&gt;
+
+&lt;p&gt;Each request contains enough context to process the message. (Session state is therefore kept entirely on the client.)&lt;/p&gt;
+
+&lt;h3 id=&#34;cacheable&#34;&gt;Cacheable&lt;/h3&gt;
+
+&lt;p&gt;Server responses (representations) are cacheable (or non-cacheable?). If a response is cacheable, then a client cache is given the right to reuse that response data for later, equivalent requests.&lt;/p&gt;
+
+&lt;h3 id=&#34;client-server&#34;&gt;Client-Server&lt;/h3&gt;
+
+&lt;p&gt;Separate the user interface from the data storage, improve the portability of the user interface, and improve scalability.&lt;/p&gt;
+
+&lt;h3 id=&#34;layered-system&#34;&gt;Layered System&lt;/h3&gt;
+
+&lt;p&gt;The layered system style allows an architecture to be composed of hierarchical layers by constraining component behavior such that each component cannot “see” beyond the immediate layer with which they are interacting.&lt;/p&gt;
+
+&lt;h3 id=&#34;code-on-demand-optional&#34;&gt;Code on Demand (optional)&lt;/h3&gt;
+
+&lt;p&gt;Transfer logic to client. Client executes logic.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://restfulapi.net/&#34;&gt;What is REST, by REST API Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming#answer-671132&#34;&gt;What exactly is RESTful programming?, by stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>JS for statements and enumerability</title>
       <link>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</link>
       <pubDate>Sun, 08 Apr 2018 12:34:00 +0200</pubDate>
