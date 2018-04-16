@@ -80,11 +80,69 @@
 
 &lt;p&gt;Transfer logic to client. Client executes logic.&lt;/p&gt;
 
+&lt;h2 id=&#34;some-best-practices&#34;&gt;Some best practices&lt;/h2&gt;
+
+&lt;h3 id=&#34;use-plural-nouns-as-resource-names&#34;&gt;Use plural nouns as resource names&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;GET /owners, list all the owners
+POST /owners, create a new owner
+GET /owners/123, get owner with id 123
+PUT /owners/123, update owner with id 123
+DELETE /owners/123, delete owner with id 123
+GET /owners/123/pets, list all the pets of owner (id 123)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;use-correct-http-status-and-headers&#34;&gt;Use correct HTTP status and headers&lt;/h3&gt;
+
+&lt;h3 id=&#34;use-hateoas-hypermedia-as-the-engine-of-application-state&#34;&gt;Use HATEOAS (Hypermedia as the Engine of Application State)&lt;/h3&gt;
+
+&lt;p&gt;might be considered&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;{
+  &amp;quot;id&amp;quot;: &amp;quot;123&amp;quot;,
+  &amp;quot;surname&amp;quot;: &amp;quot;Trump&amp;quot;,
+  &amp;quot;givenname&amp;quot;: &amp;quot;Max&amp;quot;,
+  &amp;quot;age&amp;quot;: 25,
+  &amp;quot;pet&amp;quot;: [
+    {
+      &amp;quot;id&amp;quot;: &amp;quot;23&amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;Chocolate&amp;quot;,
+      &amp;quot;links&amp;quot;: [
+        {
+          &amp;quot;rel&amp;quot;: &amp;quot;self&amp;quot;,
+          &amp;quot;href&amp;quot;: &amp;quot;/owners/123/pets/23&amp;quot;
+        }
+      ]
+    }
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;versioning&#34;&gt;Versioning&lt;/h3&gt;
+
+&lt;p&gt;Current proposition, support at most 2 versions.&lt;/p&gt;
+
+&lt;p&gt;If we neeed to have a new version of &lt;code&gt;GET /projects&lt;/code&gt;, we would have &lt;code&gt;GET /projects2&lt;/code&gt; for developing and testing the new endpoint.&lt;/p&gt;
+
+&lt;p&gt;The client would have some time test the new endpoint, and switch to use it, and finally confirm that it is working as expected.&lt;/p&gt;
+
+&lt;p&gt;Once the behavior of the old endpoint is no more in use, we would implement the &lt;code&gt;GET /projects&lt;/code&gt; with exactly what is implemented in &lt;code&gt;GET /projects2&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The client would get some time and remove the &lt;code&gt;2&lt;/code&gt; from their API path.&lt;/p&gt;
+
+&lt;p&gt;Once we got final confirmation, the temporary &lt;code&gt;GET /projects2&lt;/code&gt; could be removed.&lt;/p&gt;
+
+&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
+
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://restfulapi.net/&#34;&gt;What is REST, by REST API Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming#answer-671132&#34;&gt;What exactly is RESTful programming?, by stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming#answer-671132&#34;&gt;What exactly is RESTful programming?, on stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9&#34;&gt;RESTful API Designing guidelines — The best practices, on hackernoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/&#34;&gt;10 Best Practices for Better RESTful API, on mwaysolutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api&#34;&gt;
+Best Practices for Designing a Pragmatic RESTful API, on vinaysahni&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
       
     </item>
