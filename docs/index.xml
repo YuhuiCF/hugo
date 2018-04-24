@@ -364,7 +364,12 @@ config.optimization = {
     }),
   ],
 };
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;some-other-very-nice-tutorials&#34;&gt;Some other very nice tutorials&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1&#34;&gt;A tale of Webpack 4 and how to finally configure it in the right way
+Spoiler: there is no right way. #justwebpackthings&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     
