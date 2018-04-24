@@ -1,7 +1,7 @@
 ---
 title: "Webpack Upgrade"
 date: 2018-03-07T16:00:00+01:00
-lastmod: 2018-03-16T21:00:00+01:00
+lastmod: 2018-04-24T11:43:00+02:00
 draft: false
 tags: ["webpack"]
 categories: ["js"]
@@ -66,3 +66,8 @@ config.optimization = {
   ],
 };
 ```
+
+### Some other very nice tutorials
+
+[A tale of Webpack 4 and how to finally configure it in the right way
+Spoiler: there is no right way. #justwebpackthings](https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1)
