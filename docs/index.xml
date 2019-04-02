@@ -35,6 +35,35 @@
     </item>
     
     <item>
+      <title>Print Page without Browser Settings</title>
+      <link>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</link>
+      <pubDate>Tue, 02 Apr 2019 21:42:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</guid>
+      
+        <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;页面默认有页眉页脚信息，展现到页面外边距范围，通过去除页面模型的外边距，使得内容不会延伸到页面的边缘，再通过设置 body 元素的 margin 来保证 A4 纸打印出来的页面带有外边距。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;original-posts&#34;&gt;Original posts&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://juejin.im/post/5c90d8085188252db75694dc&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;@media print {
+	@page {
+		margin: 0;
+	}
+	body {
+		margin: 2cm;
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>RESTful API</title>
       <link>https://yuhuix.github.io/hugo/post/20180410-restful-api/</link>
       <pubDate>Tue, 10 Apr 2018 07:56:00 +0200</pubDate>

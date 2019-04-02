@@ -6,10 +6,23 @@
     <description>Recent content in Posts on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Apr 2018 07:56:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 21:42:00 +0200</lastBuildDate>
     
 	<atom:link href="https://yuhuix.github.io/hugo/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Print Page without Browser Settings</title>
+      <link>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</link>
+      <pubDate>Tue, 02 Apr 2019 21:42:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;页面默认有页眉页脚信息，展现到页面外边距范围，通过去除页面模型的外边距，使得内容不会延伸到页面的边缘，再通过设置 body 元素的 margin 来保证 A4 纸打印出来的页面带有外边距。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>RESTful API</title>
