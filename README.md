@@ -2,7 +2,7 @@
 
 My hugo repository to host my blogs.
 
-[Online version](https://yuhuicf.github.io/hugo/)
+[Online version](https://yuhuix.github.io/hugo/)
 
 To edit and preview with hugo:
 ```bash

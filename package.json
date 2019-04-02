@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YuhuiCF/hugo.git"
+    "url": "git+https://github.com/yuhuiX/hugo.git"
   },
   "author": "Yuhui Xiong",
   "license": "CC-BY-NC-ND-4.0",
   "bugs": {
-    "url": "https://github.com/YuhuiCF/hugo/issues"
+    "url": "https://github.com/yuhuiX/hugo/issues"
   },
-  "homepage": "https://github.com/YuhuiCF/hugo#readme",
+  "homepage": "https://github.com/yuhuiX/hugo#readme",
   "devDependencies": {
-    "version-patch": "git+https://github.com/YuhuiCF/version-patch.git#3.4.4"
+    "version-patch": "git+https://github.com/yuhuiX/version-patch.git#3.4.4"
   }
 }

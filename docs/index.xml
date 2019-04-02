@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Blog built on Hugo with Jane theme</title>
-    <link>https://yuhuicf.github.io/hugo/</link>
+    <link>https://yuhuix.github.io/hugo/</link>
     <description>Recent content on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
-        <atom:link href="https://yuhuicf.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yuhuix.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://yuhuicf.github.io/hugo/about/</link>
+      <link>https://yuhuix.github.io/hugo/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/about/</guid>
+      <guid>https://yuhuix.github.io/hugo/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 
@@ -36,10 +36,10 @@
     
     <item>
       <title>RESTful API</title>
-      <link>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</link>
+      <link>https://yuhuix.github.io/hugo/post/20180410-restful-api/</link>
       <pubDate>Tue, 10 Apr 2018 07:56:00 +0200</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/20180410-restful-api/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/20180410-restful-api/</guid>
       
         <description>&lt;h2 id=&#34;guiding-principles-of-rest&#34;&gt;Guiding Principles of REST&lt;/h2&gt;
 
@@ -149,10 +149,10 @@ Best Practices for Designing a Pragmatic RESTful API, on vinaysahni&lt;/a&gt;&lt
     
     <item>
       <title>JS for statements and enumerability</title>
-      <link>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</link>
+      <link>https://yuhuix.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</link>
       <pubDate>Sun, 08 Apr 2018 12:34:00 +0200</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/20180408-js-for-statements-and-enumerability/</guid>
       
         <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
@@ -183,10 +183,10 @@ Object.defineProperty(a, &#39;myMethod&#39;, {// or add to `Object.prototype` in
     
     <item>
       <title>如何做一名有能力的专业人士</title>
-      <link>https://yuhuicf.github.io/hugo/post/20180407-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%90%8D%E6%9C%89%E8%83%BD%E5%8A%9B%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB/</link>
+      <link>https://yuhuix.github.io/hugo/post/20180407-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%90%8D%E6%9C%89%E8%83%BD%E5%8A%9B%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB/</link>
       <pubDate>Sat, 07 Apr 2018 13:38:00 +0200</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/20180407-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%90%8D%E6%9C%89%E8%83%BD%E5%8A%9B%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/20180407-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%90%8D%E6%9C%89%E8%83%BD%E5%8A%9B%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB/</guid>
       
         <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
@@ -258,10 +258,10 @@ Object.defineProperty(a, &#39;myMethod&#39;, {// or add to `Object.prototype` in
     
     <item>
       <title>Learn Enough Command Line to Be Dangerous</title>
-      <link>https://yuhuicf.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</link>
+      <link>https://yuhuix.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</link>
       <pubDate>Sun, 18 Mar 2018 20:56:00 +0100</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/20180318-learn-enough-cli-to-be-dangerous/</guid>
       
         <description>&lt;h2 id=&#34;ebook&#34;&gt;Ebook&lt;/h2&gt;
 
@@ -304,10 +304,10 @@ Sometimes even an example could be found in the manual descriptions.&lt;/p&gt;
     
     <item>
       <title>Webpack Upgrade</title>
-      <link>https://yuhuicf.github.io/hugo/post/20180307-webpack-upgrade/</link>
+      <link>https://yuhuix.github.io/hugo/post/20180307-webpack-upgrade/</link>
       <pubDate>Wed, 07 Mar 2018 16:00:00 +0100</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/20180307-webpack-upgrade/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/20180307-webpack-upgrade/</guid>
       
         <description>&lt;h2 id=&#34;upgrade-of-webpack-to-4-x-x&#34;&gt;Upgrade of webpack to 4.x.x&lt;/h2&gt;
 
@@ -375,10 +375,10 @@ Spoiler: there is no right way. #justwebpackthings&lt;/a&gt;&lt;/p&gt;</descript
     
     <item>
       <title>Jane Theme Preview</title>
-      <link>https://yuhuicf.github.io/hugo/post/jane-theme-preview/</link>
+      <link>https://yuhuix.github.io/hugo/post/jane-theme-preview/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/jane-theme-preview/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/jane-theme-preview/</guid>
       
         <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
 
@@ -713,10 +713,10 @@ __double underscores__
     
     <item>
       <title>Shortcodes Preview</title>
-      <link>https://yuhuicf.github.io/hugo/post/shortcodes-preview/</link>
+      <link>https://yuhuix.github.io/hugo/post/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/shortcodes-preview/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/shortcodes-preview/</guid>
       
         <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
 
@@ -1109,10 +1109,10 @@ __double underscores__
     
     <item>
       <title>English Creating a New Theme</title>
-      <link>https://yuhuicf.github.io/hugo/post/english-preview/</link>
+      <link>https://yuhuix.github.io/hugo/post/english-preview/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/english-preview/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/english-preview/</guid>
       
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
@@ -2212,10 +2212,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>This is a very long title This is a very long title This is a very long title This is a very long title This is a very long title</title>
-      <link>https://yuhuicf.github.io/hugo/post/this-is-a-very-long-title/</link>
+      <link>https://yuhuix.github.io/hugo/post/this-is-a-very-long-title/</link>
       <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/this-is-a-very-long-title/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/this-is-a-very-long-title/</guid>
       
         <description>&lt;p&gt;This is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long title&lt;/p&gt;
 </description>
@@ -2224,10 +2224,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://yuhuicf.github.io/hugo/post/creating-a-new-theme/</link>
+      <link>https://yuhuix.github.io/hugo/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/creating-a-new-theme/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/creating-a-new-theme/</guid>
       
         <description>
 
@@ -3328,10 +3328,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://yuhuicf.github.io/hugo/post/goisforlovers/</link>
+      <link>https://yuhuix.github.io/hugo/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/goisforlovers/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/goisforlovers/</guid>
       
         <description>
 
@@ -3391,7 +3391,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;https://yuhuicf.github.io/hugo/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;https://yuhuix.github.io/hugo/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 
@@ -3408,7 +3408,7 @@ page you are rendering. More details are available on the
 
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;https://yuhuicf.github.io/hugo/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;https://yuhuix.github.io/hugo/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -3596,7 +3596,7 @@ you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;https://yuhuicf.github.io/hugo/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;https://yuhuix.github.io/hugo/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -3676,10 +3676,10 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://yuhuicf.github.io/hugo/post/hugoisforlovers/</link>
+      <link>https://yuhuix.github.io/hugo/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/hugoisforlovers/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/hugoisforlovers/</guid>
       
         <description>
 
@@ -3690,7 +3690,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://yuhuicf.github.io/hugo/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://yuhuix.github.io/hugo/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 
@@ -3765,10 +3765,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://yuhuicf.github.io/hugo/post/migrate-from-jekyll/</link>
+      <link>https://yuhuix.github.io/hugo/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/migrate-from-jekyll/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/migrate-from-jekyll/</guid>
       
         <description>
 
@@ -3794,7 +3794,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h2 id=&#34;create-your-hugo-configuration-file&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
 
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;https://yuhuicf.github.io/hugo/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;https://yuhuix.github.io/hugo/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-site&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 
@@ -3820,13 +3820,13 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
 
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;https://yuhuicf.github.io/hugo/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;https://yuhuix.github.io/hugo/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 
 &lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;https://yuhuicf.github.io/hugo/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;https://yuhuix.github.io/hugo/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 
 &lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
 
@@ -3944,10 +3944,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>https://yuhuicf.github.io/hugo/post/syntax-highlighting/</link>
+      <link>https://yuhuix.github.io/hugo/post/syntax-highlighting/</link>
       <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/post/syntax-highlighting/</guid>
+      <guid>https://yuhuix.github.io/hugo/post/syntax-highlighting/</guid>
       
         <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
   alert(&amp;quot;Hello, World!&amp;quot;)

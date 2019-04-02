@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My Blog built on Hugo with Jane theme</title>
-    <link>https://yuhuicf.github.io/hugo/categories/</link>
+    <link>https://yuhuix.github.io/hugo/categories/</link>
     <description>Recent content in Categories on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Apr 2018 13:38:00 +0200</lastBuildDate>
     
-	<atom:link href="https://yuhuicf.github.io/hugo/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuhuix.github.io/hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Career</title>
-      <link>https://yuhuicf.github.io/hugo/categories/career/</link>
+      <link>https://yuhuix.github.io/hugo/categories/career/</link>
       <pubDate>Sat, 07 Apr 2018 13:38:00 +0200</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/categories/career/</guid>
+      <guid>https://yuhuix.github.io/hugo/categories/career/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jane</title>
-      <link>https://yuhuicf.github.io/hugo/categories/jane/</link>
+      <link>https://yuhuix.github.io/hugo/categories/jane/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/categories/jane/</guid>
+      <guid>https://yuhuix.github.io/hugo/categories/jane/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Js</title>
-      <link>https://yuhuicf.github.io/hugo/categories/js/</link>
+      <link>https://yuhuix.github.io/hugo/categories/js/</link>
       <pubDate>Sun, 08 Apr 2018 12:34:00 +0200</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/categories/js/</guid>
+      <guid>https://yuhuix.github.io/hugo/categories/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unix</title>
-      <link>https://yuhuicf.github.io/hugo/categories/unix/</link>
+      <link>https://yuhuix.github.io/hugo/categories/unix/</link>
       <pubDate>Sun, 18 Mar 2018 20:56:00 +0100</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/categories/unix/</guid>
+      <guid>https://yuhuix.github.io/hugo/categories/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>https://yuhuicf.github.io/hugo/categories/web/</link>
+      <link>https://yuhuix.github.io/hugo/categories/web/</link>
       <pubDate>Tue, 10 Apr 2018 07:56:00 +0200</pubDate>
       
-      <guid>https://yuhuicf.github.io/hugo/categories/web/</guid>
+      <guid>https://yuhuix.github.io/hugo/categories/web/</guid>
       <description></description>
     </item>
     
