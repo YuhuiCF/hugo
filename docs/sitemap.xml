@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://yuhuix.github.io/hugo/post/20190425-js-arrow-function/</loc>
+    <lastmod>2019-04-25T14:06:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</loc>
     <lastmod>2019-04-02T21:42:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,6 +122,13 @@
   </url>
   
   <url>
+    <loc>https://yuhuix.github.io/hugo/tags/basics/</loc>
+    <lastmod>2019-04-25T14:06:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yuhuix.github.io/hugo/categories/career/</loc>
     <lastmod>2018-04-07T13:38:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -186,7 +200,7 @@
   
   <url>
     <loc>https://yuhuix.github.io/hugo/categories/js/</loc>
-    <lastmod>2018-04-08T13:01:00+02:00</lastmod>
+    <lastmod>2019-04-25T14:06:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -200,7 +214,7 @@
   
   <url>
     <loc>https://yuhuix.github.io/hugo/post/</loc>
-    <lastmod>2019-04-02T21:42:00+02:00</lastmod>
+    <lastmod>2019-04-25T14:06:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -235,7 +249,7 @@
   
   <url>
     <loc>https://yuhuix.github.io/hugo/tags/</loc>
-    <lastmod>2018-03-18T21:54:00+01:00</lastmod>
+    <lastmod>2019-04-25T14:06:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

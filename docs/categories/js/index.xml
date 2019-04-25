@@ -6,10 +6,34 @@
     <description>Recent content in Js on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Apr 2018 12:34:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 11:36:00 +0200</lastBuildDate>
     
 	<atom:link href="https://yuhuix.github.io/hugo/categories/js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS arrow function</title>
+      <link>https://yuhuix.github.io/hugo/post/20190425-js-arrow-function/</link>
+      <pubDate>Thu, 25 Apr 2019 11:36:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20190425-js-arrow-function/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;箭头函数没有 prototype(原型)，所以箭头函数本身没有 this&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 在定义的时候继承自外层第一个普通函数的 this（&lt;code&gt;this&lt;/code&gt; comes from the enclosing lexical scope）。&lt;/li&gt;
+&lt;li&gt;如果箭头函数外层没有普通函数，严格模式和非严格模式下它的 this 都会指向 window(全局对象)&lt;/li&gt;
+&lt;li&gt;箭头函数本身的 this 指向不能改变，但可以修改它要继承的对象的 this。&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 指向全局，使用 arguments 会报未声明的错误。&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 指向普通函数时,它的 argumens 继承于该普通函数&lt;/li&gt;
+&lt;li&gt;使用 new 调用箭头函数会报错，因为箭头函数没有 constructor&lt;/li&gt;
+&lt;li&gt;箭头函数不支持 new.target&lt;/li&gt;
+&lt;li&gt;箭头函数不支持重命名函数参数,普通函数的函数参数支持重命名&lt;/li&gt;
+&lt;li&gt;箭头函数相对于普通函数语法更简洁优雅&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>JS for statements and enumerability</title>

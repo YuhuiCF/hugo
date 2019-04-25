@@ -35,6 +35,262 @@
     </item>
     
     <item>
+      <title>JS arrow function</title>
+      <link>https://yuhuix.github.io/hugo/post/20190425-js-arrow-function/</link>
+      <pubDate>Thu, 25 Apr 2019 11:36:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20190425-js-arrow-function/</guid>
+      
+        <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;箭头函数没有 prototype(原型)，所以箭头函数本身没有 this&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 在定义的时候继承自外层第一个普通函数的 this（&lt;code&gt;this&lt;/code&gt; comes from the enclosing lexical scope）。&lt;/li&gt;
+&lt;li&gt;如果箭头函数外层没有普通函数，严格模式和非严格模式下它的 this 都会指向 window(全局对象)&lt;/li&gt;
+&lt;li&gt;箭头函数本身的 this 指向不能改变，但可以修改它要继承的对象的 this。&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 指向全局，使用 arguments 会报未声明的错误。&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 指向普通函数时,它的 argumens 继承于该普通函数&lt;/li&gt;
+&lt;li&gt;使用 new 调用箭头函数会报错，因为箭头函数没有 constructor&lt;/li&gt;
+&lt;li&gt;箭头函数不支持 new.target&lt;/li&gt;
+&lt;li&gt;箭头函数不支持重命名函数参数,普通函数的函数参数支持重命名&lt;/li&gt;
+&lt;li&gt;箭头函数相对于普通函数语法更简洁优雅&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;js-this&#34;&gt;JS &lt;code&gt;this&lt;/code&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;箭头函数没有 prototype(原型)，所以箭头函数本身没有 this&lt;/li&gt;
+&lt;li&gt;箭头函数的 this 指向在定义的时候继承自外层第一个普通函数的 this&lt;/li&gt;
+&lt;li&gt;不能直接修改箭头函数的 this 指向（call, apply, bind）。Since arrow functions do not have their own this, the methods call() or apply() can only pass in parameters.&lt;/li&gt;
+&lt;li&gt;箭头函数外层没有普通函数，严格模式和非严格模式下它的 this 都会指向 window(全局对象)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Until arrow functions, every new function defined its own this value based on how the function was called:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A new object in the case of a constructor.&lt;/li&gt;
+&lt;li&gt;undefined in strict mode function calls.&lt;/li&gt;
+&lt;li&gt;The base object if the function is called as an &amp;ldquo;object method&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;example-1&#34;&gt;Example 1:&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;let a;
+const barObj = {
+  msg: &#39;from barObj&#39;,
+};
+const fooObj = {
+  msg: &#39;from fooObj&#39;,
+};
+
+bar(); // 将bar的this指向barObj // (1)
+foo.call(fooObj); // 将foo的this指向fooObj
+
+function foo() {
+  a(); // 结果：{ msg: &#39;from barObj&#39; }
+}
+
+function bar() {
+  a = () =&amp;gt; {
+    console.log(this, &#39;this指向定义的时候外层第一个普通函数&#39;);
+  }; // 在bar中定义 this继承于bar函数的this指向
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这时候&lt;code&gt;foo()&lt;/code&gt;就会&lt;code&gt;log()&lt;/code&gt; &lt;code&gt;window&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;如果把（1）改成&lt;code&gt;bar.call(barObj)&lt;/code&gt;，那么&lt;code&gt;foo()&lt;/code&gt;就会&lt;code&gt;log()&lt;/code&gt; &lt;code&gt;barObj&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h3 id=&#34;example-2&#34;&gt;Example 2&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function Person() {
+  // The Person() constructor defines `this` as an instance of itself.
+  this.age = 0;
+
+  setInterval(function() {
+    // In non-strict mode, the function defines `this`
+    // as the global object (because it&#39;s where the function is executed.),
+    // which is different from the `this`
+    // defined by the Person() constructor.
+    this.age++;
+  }, 1000);
+}
+
+var p = new Person();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This problem can be fixed by (old):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function Person() {
+  var that = this; // trick
+  that.age = 0;
+
+  setInterval(function() {
+    // The callback refers to the `that` variable of which
+    // the value is the expected object.
+    that.age++;
+  }, 1000);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or in the new ES6 arrow function way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function Person() {
+  this.age = 0;
+
+  setInterval(() =&amp;gt; {
+    this.age++; // |this| properly refers to the Person object
+  }, 1000);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;example-3-arrow-function-are-best-suited-for-non-method-function&#34;&gt;Example 3, arrow function are best suited for non-method function&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const obj = {
+  i: 10,
+  b: () =&amp;gt; console.log(this.i, this),
+  c: function() {
+    console.log(this.i, this);
+  },
+};
+
+obj.b(); // prints undefined, Window {...} (or the global object)
+obj.c(); // prints 10, Object {...}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;function-arguments&#34;&gt;Function &lt;code&gt;arguments&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Arrow functions do not have their own &lt;code&gt;arguments&lt;/code&gt; object. Thus, in this example, arguments is simply a reference to the arguments of the enclosing scope. Use rest parameters (&lt;code&gt;...&lt;/code&gt;) as an alternative.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-operator&#34;&gt;&lt;code&gt;new&lt;/code&gt; operator&lt;/h2&gt;
+
+&lt;p&gt;Not to be used as constructors.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const Foo = () =&amp;gt; {};
+const foo = new Foo(); // Uncaught TypeError: Foo is not a constructor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;prototype-property&#34;&gt;&lt;code&gt;prototype&lt;/code&gt; property&lt;/h2&gt;
+
+&lt;p&gt;Arrow functions do not have a &lt;code&gt;prototype&lt;/code&gt; property.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const foo = () =&amp;gt; {};
+console.log(foo.prototype); // undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;yield-keyword&#34;&gt;&lt;code&gt;yield&lt;/code&gt; keyword&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;yield&lt;/code&gt; keyword may not be used in an arrow function&amp;rsquo;s body (except when permitted within functions further nested within it). As a consequence, arrow functions cannot be used as generators.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-target&#34;&gt;&lt;code&gt;new.target&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;new.target&lt;/code&gt;是 ES6 新引入的属性，普通函数如果通过&lt;code&gt;new&lt;/code&gt;调用，&lt;code&gt;new.target&lt;/code&gt;会返回该函数的引用。
+箭头函数不支持&lt;code&gt;new.target&lt;/code&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;箭头函数的 this 指向全局对象，在箭头函数中使用箭头函数会报错&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const a = () =&amp;gt; {
+  console.log(new.target); // Uncaught SyntaxError: new.target expression is not allowed here
+};
+
+a();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;箭头函数的 this 指向普通函数，它的 new.target 就是指向该普通函数的引用。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function B() {
+  let a = () =&amp;gt; {
+    console.log(new.target); // 指向函数B：function B(){...}
+  };
+  a();
+}
+new B();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;duplicated-param-name&#34;&gt;Duplicated param name&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function func1(a, a) {
+  console.log(a, arguments);
+}
+func1(1, 2); // 2 Arguments(2) [1, 2, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+
+const func2 = (a,a) =&amp;gt; {
+  console.log(a); // Uncaught SyntaxError: Duplicate parameter name not allowed in this context
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;function-body&#34;&gt;Function body&lt;/h2&gt;
+
+&lt;h3 id=&#34;return-object-literal&#34;&gt;Return object literal&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const func = () =&amp;gt; {
+  foo: 1;
+};
+func(); // returns undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const func = () =&amp;gt; ({
+  foo: 1,
+});
+func(); // returns the object. Thus prefer having explicit `return`
+
+// preferred
+const func1 = () =&amp;gt; {
+  return {
+    foo: 1,
+  };
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;no-line-break-between-its-parameters-and-its-arrow&#34;&gt;No line break between its parameters and its arrow&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const func = (a, b, c)
+           =&amp;gt; 1; // Uncaught SyntaxError: Unexpected token =&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;!-- prettier-ignore-start --&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const func = (
+  a,
+  b,
+  c
+) =&amp;gt; {
+  return 1; // return as expected
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;!-- prettier-ignore-end --&gt;
+
+&lt;h2 id=&#34;parsing-order&#34;&gt;Parsing Order&lt;/h2&gt;
+
+&lt;p&gt;Although the arrow in an arrow function is not an operator, arrow functions have special parsing rules that interact differently with &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence&#34;&gt;operator precedence&lt;/a&gt; compared to regular functions.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;let callback;
+
+callback = callback || function() {}; // ok
+
+callback = callback || () =&amp;gt; {}; // Uncaught SyntaxError: Malformed arrow function parameter list
+
+callback = callback || (() =&amp;gt; {}); // ok
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/N0ahVkwVhDpnzGdZyC8jQg&#34;&gt;https://mp.weixin.qq.com/s/N0ahVkwVhDpnzGdZyC8jQg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Print Page without Browser Settings</title>
       <link>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</link>
       <pubDate>Tue, 02 Apr 2019 21:42:00 +0200</pubDate>
