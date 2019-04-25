@@ -29,6 +29,9 @@ Instructions:
 
 1. Run `npm run dist`
 2. node ./node_modules/version-patch/ --commit X.Y.Z
+3. node ./node_modules/version-patch/ --tag X.Y.Z
+4. `git push`
+5. `git push --tags`
 
 The version number shall be used as:
 
