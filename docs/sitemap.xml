@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>https://yuhuix.github.io/hugo/post/20190413-js-number-and-rounding/</loc>
+    <lastmod>2019-04-28T17:48:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</loc>
     <lastmod>2019-04-02T21:42:00+02:00</lastmod>
     <changefreq>weekly</changefreq>

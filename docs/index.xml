@@ -291,6 +291,89 @@ callback = callback || (() =&amp;gt; {}); // ok
     </item>
     
     <item>
+      <title>JS number and rounding</title>
+      <link>https://yuhuix.github.io/hugo/post/20190413-js-number-and-rounding/</link>
+      <pubDate>Sat, 13 Apr 2019 21:40:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20190413-js-number-and-rounding/</guid>
+      
+        <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;(1.2345).toFixed(3) === &amp;lsquo;1.234&amp;rsquo;, no rounding?&lt;/p&gt;
+
+&lt;p&gt;IEEE Standard for Floating-Point Arithmetic (IEEE 754)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ieee-754&#34;&gt;IEEE 754&lt;/h2&gt;
+
+&lt;p&gt;Format (64 bit): seee eeee eeee mmmm mmmm mmmm mmmm mmmm mmmm mmmm mmmm mmmm mmmm mmmm mmmm mmmm&lt;/p&gt;
+
+&lt;p&gt;s: sign
+e: exponent
+m: mantissa&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;decimal number = -1^S * 2^(E - 1023) * (1 + sum(i = 1, 52, (m_i * 2^(-1))))&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;number-examples&#34;&gt;Number examples&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;0.1 + 0.2 === 0.30000000000000004;
+0.3 * 2 === 0.6;
+0.3 * 3 === 0.8999999999999999;
+0.3 * 5 === 1.5;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;number&lt;/th&gt;
+&lt;th&gt;IEEE 754&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1.5&lt;/td&gt;
+&lt;td&gt;0 01111111111 1000000000000000000000000000000000000000000000000000&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1.75&lt;/td&gt;
+&lt;td&gt;0 01111111111 1100000000000000000000000000000000000000000000000000&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3.75&lt;/td&gt;
+&lt;td&gt;0 10000000000 1110000000000000000000000000000000000000000000000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Reason why (1.2345).toFixed(3) === &amp;lsquo;1.234&amp;rsquo;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;1.2345 -&amp;gt; 0 01111111111 0011110000001000001100010010011011101001011110001101 -&amp;gt; 1.2344999999999999307220832&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;better-round-function-for-fractions&#34;&gt;Better round function for fractions&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function roundTo(n, digits = 0) {
+  const multiplicator = Math.pow(10, digits);
+  n = parseFloat((n * multiplicator).toFixed(11)); // some use 11, some use (digits + 1)
+  return Math.round(n) / multiplicator;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number&#34;&gt;MDN - JS Nuber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ultimatesolver.com/de/ieee-754&#34;&gt;Dezimalzahl ↔ IEEE 754&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/10015027/javascript-tofixed-not-rounding&#34;&gt;Stackoverflow - Javascript toFixed Not Rounding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8afbTaA-gOQ&#34;&gt;YouTube - 32 bit floating point conversion example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Print Page without Browser Settings</title>
       <link>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</link>
       <pubDate>Tue, 02 Apr 2019 21:42:00 +0200</pubDate>

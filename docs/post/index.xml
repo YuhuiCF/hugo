@@ -36,6 +36,21 @@
     </item>
     
     <item>
+      <title>JS number and rounding</title>
+      <link>https://yuhuix.github.io/hugo/post/20190413-js-number-and-rounding/</link>
+      <pubDate>Sat, 13 Apr 2019 21:40:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20190413-js-number-and-rounding/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;(1.2345).toFixed(3) === &amp;lsquo;1.234&amp;rsquo;, no rounding?&lt;/p&gt;
+
+&lt;p&gt;IEEE Standard for Floating-Point Arithmetic (IEEE 754)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Print Page without Browser Settings</title>
       <link>https://yuhuix.github.io/hugo/post/20190402-print-page-without-browser-settings/</link>
       <pubDate>Tue, 02 Apr 2019 21:42:00 +0200</pubDate>
