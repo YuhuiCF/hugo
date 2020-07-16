@@ -6,10 +6,29 @@
     <description>Recent content in Posts on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Apr 2019 11:36:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 22:06:00 +0200</lastBuildDate>
     
 	<atom:link href="https://yuhuix.github.io/hugo/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《一年顶十年》</title>
+      <link>https://yuhuix.github.io/hugo/post/20200716-%E4%B8%80%E5%B9%B4%E9%A1%B6%E5%8D%81%E5%B9%B4/</link>
+      <pubDate>Thu, 16 Jul 2020 22:06:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20200716-%E4%B8%80%E5%B9%B4%E9%A1%B6%E5%8D%81%E5%B9%B4/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;猫叔（剽悍一只猫）的新书《一年顶十年》推荐。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;写给能成事的你&lt;/p&gt;
+
+&lt;p&gt;让自己变得更好 是解决一切问题的关键&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>JS arrow function</title>
