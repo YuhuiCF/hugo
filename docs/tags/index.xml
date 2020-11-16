@@ -6,7 +6,7 @@
     <description>Recent content in Tags on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2020 21:15:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 21:15:00 +0100</lastBuildDate>
     
 	<atom:link href="https://yuhuix.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Angular</title>
       <link>https://yuhuix.github.io/hugo/tags/angular/</link>
-      <pubDate>Mon, 16 Nov 2020 21:15:00 +0200</pubDate>
+      <pubDate>Mon, 16 Nov 2020 21:15:00 +0100</pubDate>
       
       <guid>https://yuhuix.github.io/hugo/tags/angular/</guid>
       <description></description>
@@ -86,7 +86,7 @@
     <item>
       <title>Nest</title>
       <link>https://yuhuix.github.io/hugo/tags/nest/</link>
-      <pubDate>Mon, 16 Nov 2020 21:15:00 +0200</pubDate>
+      <pubDate>Mon, 16 Nov 2020 21:15:00 +0100</pubDate>
       
       <guid>https://yuhuix.github.io/hugo/tags/nest/</guid>
       <description></description>

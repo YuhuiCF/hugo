@@ -6,7 +6,7 @@
     <description>Recent content in Nest on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2020 21:15:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 21:15:00 +0100</lastBuildDate>
     
 	<atom:link href="https://yuhuix.github.io/hugo/tags/nest/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Angular Nest Basic Auth</title>
       <link>https://yuhuix.github.io/hugo/post/20201116-angular-nest-basic-auth/</link>
-      <pubDate>Mon, 16 Nov 2020 21:15:00 +0200</pubDate>
+      <pubDate>Mon, 16 Nov 2020 21:15:00 +0100</pubDate>
       
       <guid>https://yuhuix.github.io/hugo/post/20201116-angular-nest-basic-auth/</guid>
       <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
