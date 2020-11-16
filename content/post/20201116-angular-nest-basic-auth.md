@@ -1,7 +1,7 @@
 ---
 title: 'Angular Nest Basic Auth'
-date: 2020-11-16T21:15:00+02:00
-lastmod: 2020-11-16T21:15:00+02:00
+date: 2020-11-16T21:15:00+01:00
+lastmod: 2020-11-16T21:15:00+01:00
 draft: false
 tags: ['angular', 'nest']
 categories: ['js']
