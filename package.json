@@ -1,6 +1,6 @@
 {
   "name": "hugo",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "My hugo repository to host my blogs.",
   "directories": {
     "doc": "docs"

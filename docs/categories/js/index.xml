@@ -6,10 +6,37 @@
     <description>Recent content in Js on My Blog built on Hugo with Jane theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Apr 2019 11:36:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 21:15:00 +0200</lastBuildDate>
     
 	<atom:link href="https://yuhuix.github.io/hugo/categories/js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Angular Nest Basic Auth</title>
+      <link>https://yuhuix.github.io/hugo/post/20201116-angular-nest-basic-auth/</link>
+      <pubDate>Mon, 16 Nov 2020 21:15:00 +0200</pubDate>
+      
+      <guid>https://yuhuix.github.io/hugo/post/20201116-angular-nest-basic-auth/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;This is part of my learning in my own &lt;a href=&#34;https://github.com/yuhuiX/my-angular-project&#34;&gt;my-angular-project&lt;/a&gt; project.
+How to use basic auth in Angular-Nest.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Angular
+const headers: HttpHeaders = new HttpHeaders()
+  .append(&#39;Authorization&#39;, &#39;Basic &#39; + btoa(&#39;name:password&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Nest
+const b64authToken: string =
+  (request.headers[&#39;authorization&#39;] || &#39;&#39;).split(&#39; &#39;)[1] || &#39;&#39;;
+const [username, password] = Buffer.from(b64authToken, &#39;base64&#39;)
+  .toString()
+  .split(&#39;:&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>JS arrow function</title>

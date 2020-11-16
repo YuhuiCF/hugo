@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>My Blog built on Hugo with Jane theme</title>
+  <title>Angular Nest Basic Auth - My Blog built on Hugo with Jane theme</title>
   <link rel="alternate" hreflang="en" href="https://yuhuix.github.io/hugo/" />
 
 <meta name="renderer" content="webkit" />
@@ -19,7 +19,10 @@
 
 
 <meta name="author" content="Yuhui Xiong" />
-  <meta name="description" content="Yuhui&#39;s blog" />
+  <meta name="description" content="Summary This is part of my learning in my own my-angular-project project. How to use basic auth in Angular-Nest.
+// Angular const headers: HttpHeaders = new HttpHeaders() .append(&#39;Authorization&#39;, &#39;Basic &#39; &#43; btoa(&#39;name:password&#39;));  // Nest const b64authToken: string = (request.headers[&#39;authorization&#39;] || &#39;&#39;).split(&#39; &#39;)[1] || &#39;&#39;; const [username, password] = Buffer.from(b64authToken, &#39;base64&#39;) .toString() .split(&#39;:&#39;);  
+" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -30,9 +33,7 @@
 <meta name="generator" content="Hugo 0.37.1" />
 
 
-<link rel="canonical" href="https://yuhuix.github.io/hugo/" />
-<link href="https://yuhuix.github.io/hugo/index.xml" rel="alternate" type="application/rss+xml" title="My Blog built on Hugo with Jane theme" />
-  <link href="https://yuhuix.github.io/hugo/index.xml" rel="feed" type="application/rss+xml" title="My Blog built on Hugo with Jane theme" />
+<link rel="canonical" href="https://yuhuix.github.io/hugo/post/20201116-angular-nest-basic-auth/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/hugo/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/hugo/favicon-32x32.png">
@@ -50,14 +51,34 @@
 
 
 
-<meta property="og:title" content="My Blog built on Hugo with Jane theme" />
-<meta property="og:description" content="Yuhui&#39;s blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://yuhuix.github.io/hugo/" />
+<meta property="og:title" content="Angular Nest Basic Auth" />
+<meta property="og:description" content="Summary
+
+This is part of my learning in my own my-angular-project project.
+How to use basic auth in Angular-Nest.
+
+// Angular
+const headers: HttpHeaders = new HttpHeaders()
+  .append(&#39;Authorization&#39;, &#39;Basic &#39; &#43; btoa(&#39;name:password&#39;));
+
+
+// Nest
+const b64authToken: string =
+  (request.headers[&#39;authorization&#39;] || &#39;&#39;).split(&#39; &#39;)[1] || &#39;&#39;;
+const [username, password] = Buffer.from(b64authToken, &#39;base64&#39;)
+  .toString()
+  .split(&#39;:&#39;);
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yuhuix.github.io/hugo/post/20201116-angular-nest-basic-auth/" />
 
 
 
-<meta property="og:updated_time" content="2017-08-20T21:38:52&#43;08:00"/>
+<meta property="article:published_time" content="2020-11-16T21:15:00&#43;02:00"/>
+
+<meta property="article:modified_time" content="2020-11-16T21:15:00&#43;02:00"/>
 
 
 
@@ -68,12 +89,57 @@
 
 
 
-<meta itemprop="name" content="My Blog built on Hugo with Jane theme">
-<meta itemprop="description" content="Yuhui&#39;s blog">
 
+<meta itemprop="name" content="Angular Nest Basic Auth">
+<meta itemprop="description" content="Summary
+
+This is part of my learning in my own my-angular-project project.
+How to use basic auth in Angular-Nest.
+
+// Angular
+const headers: HttpHeaders = new HttpHeaders()
+  .append(&#39;Authorization&#39;, &#39;Basic &#39; &#43; btoa(&#39;name:password&#39;));
+
+
+// Nest
+const b64authToken: string =
+  (request.headers[&#39;authorization&#39;] || &#39;&#39;).split(&#39; &#39;)[1] || &#39;&#39;;
+const [username, password] = Buffer.from(b64authToken, &#39;base64&#39;)
+  .toString()
+  .split(&#39;:&#39;);
+
+
+">
+
+
+<meta itemprop="datePublished" content="2020-11-16T21:15:00&#43;02:00" />
+<meta itemprop="dateModified" content="2020-11-16T21:15:00&#43;02:00" />
+<meta itemprop="wordCount" content="148">
+
+
+
+<meta itemprop="keywords" content="angular,nest," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Blog built on Hugo with Jane theme"/>
-<meta name="twitter:description" content="Yuhui&#39;s blog"/>
+<meta name="twitter:title" content="Angular Nest Basic Auth"/>
+<meta name="twitter:description" content="Summary
+
+This is part of my learning in my own my-angular-project project.
+How to use basic auth in Angular-Nest.
+
+// Angular
+const headers: HttpHeaders = new HttpHeaders()
+  .append(&#39;Authorization&#39;, &#39;Basic &#39; &#43; btoa(&#39;name:password&#39;));
+
+
+// Nest
+const b64authToken: string =
+  (request.headers[&#39;authorization&#39;] || &#39;&#39;).split(&#39; &#39;)[1] || &#39;&#39;;
+const [username, password] = Buffer.from(b64authToken, &#39;base64&#39;)
+  .toString()
+  .split(&#39;:&#39;);
+
+
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -141,29 +207,43 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-  <section id="posts" class="posts">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Angular Nest Basic Auth</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-11-16 </span>
+        <div class="post-category">
+            
+              <a href="/hugo/categories/js/"> js </a>
+            
+          </div>
+        <span class="more-meta"> 148 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
     
     
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/hugo/post/20201116-angular-nest-basic-auth/">Angular Nest Basic Auth</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-11-16 </span>
-      <div class="post-category">
-          
-            <a href="/hugo/categories/js/"> js </a>
-          
-        </div>
-      <span class="more-meta"> 148 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
   
-  <div class="post-content">
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#nest">Nest</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
     
-    <div class="post-summary">
+    <div class="post-content">
       <h2 id="summary">Summary</h2>
 
 <p>This is part of my learning in my own <a href="https://github.com/yuhuiX/my-angular-project">my-angular-project</a> project.
@@ -183,145 +263,90 @@ const [username, password] = Buffer.from(b64authToken, 'base64')
 </code></pre>
 
 <p></p>
+
+<h2 id="nest">Nest</h2>
+
+<p>The complete Nest part requires more than that code sample.</p>
+
+<p>Define your injectable<code>LocalAuthGuard</code> which implements <code>CanActivate</code>:</p>
+
+<pre><code class="language-javascript">@Injectable()
+export class LocalAuthGuard implements CanActivate {
+  constructor(private authService: AuthService) {}
+
+  canActivate(context: ExecutionContext): boolean | Promise&lt;boolean&gt; {
+    const request = context.switchToHttp().getRequest() as Request;
+
+    const b64authToken: string =
+      (request.headers['authorization'] || '').split(' ')[1] || '';
+    const [username, password] = Buffer.from(b64authToken, 'base64')
+      .toString()
+      .split(':');
+
+    return this.authService.areUserCredentialsValid({ username, password });
+  }
+}
+</code></pre>
+
+<pre><code class="language-javascript">controller {
+  // Nest way of doing authentication using Guards
+  // can be moved to the controller and will then be applied to the whole controller
+  @UseGuards(LocalAuthGuard)
+  @Post()
+  createXXX() {}
+}
+</code></pre>
     </div>
-    <div class="read-more">
-      <a href="/hugo/post/20201116-angular-nest-basic-auth/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
 
     
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/hugo/post/20200817-%E4%B8%80%E7%94%9F%E7%9A%84%E6%97%85%E7%A8%8B/">一生的旅程 - The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-17 </span>
-      <div class="post-category">
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Yuhui Xiong</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2020-11-16</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
           
-            <a href="/hugo/categories/career/"> career </a>
+          <a href="/hugo/tags/angular/">angular</a>
+          
+          <a href="/hugo/tags/nest/">nest</a>
           
         </div>
-      <span class="more-meta"> 4299 words </span>
-      <span class="more-meta"> 9 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/hugo/post/20200817-%E4%B8%80%E7%94%9F%E7%9A%84%E6%97%85%E7%A8%8B/">
+            <span class="next-text nav-default">一生的旅程 - The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
     
-    <div class="post-summary">
-      <h2 id="summary">Summary</h2>
-
-<p>迪士尼CEO，罗伯特·艾格的新书《一生的旅程》推荐。</p>
-
-<p>这里是它的附录，<strong>领导原则</strong></p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/hugo/post/20200817-%E4%B8%80%E7%94%9F%E7%9A%84%E6%97%85%E7%A8%8B/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/hugo/post/20200723-itil-guiding-principles/">ITIL Guiding Principles</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-23 </span>
-      <div class="post-category">
-          
-            <a href="/hugo/categories/theory/"> theory </a>
-          
-        </div>
-      <span class="more-meta"> 132 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h2 id="summary">Summary</h2>
-
-<p>ITIL (IT Infrastructure Library?) 4 was published in February 2019.</p>
-
-<blockquote>
-<p>The guiding principles are one of the most useful and practical parts of ITIL 4. If you share these principles with all your people, and use them when you’re making decisions, then you’re going to do a much better job of creating value for your customers, your users, and your own organization.</p>
-</blockquote>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/hugo/post/20200723-itil-guiding-principles/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-  </section>
 
   
-  
 
-
-
-  
-  
   
 
   
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    
-    <li  class="active" >
-      <a href="/hugo/">1</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/2/">2</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/3/">3</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/4/">4</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/5/">5</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/6/">6</a>
-    </li>
-    
-    <li >
-      <a href="/hugo/page/7/">7</a>
-    </li>
-    
-  </nav>
-
-  
-  
-
-
-
-
+  </article>
         </div>
       </div>
     </main>
